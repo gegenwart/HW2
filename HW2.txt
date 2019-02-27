@@ -1,12 +1,16 @@
-<teiHeader type="text"
-  <fileDesc>
-    <titleStmt>
-      <title>Duchenka in XML with a TEI DTD</title>
-      <autor>Ippolit Bogdanonitch</autor>
-        <respStmt>
-        <resp>Transribed and encoded by</resp>
-		</respStmt>
-		</titleStmt>
+<TEI>
+    <teiHeader> 
+        <fileDesc>
+            <titleStmt>
+               <title>Duchenka</title>
+            </titleStmt>
+            <respStmt>
+                <persName>Polina Nikiforova</persName>
+                <resp>Transribed and encoded by</resp>
+            </respStmt>
+         </fileDesc>
+    </teiHeader>
+    <text>
  Со всякой бранью возроптали,
  Что шли куда не знали.
  Впоследок,едучи путем и вдоль и вкруг,
@@ -214,5 +218,5 @@
 Зефиры! вы меня как должно научите
 Сказать читателям, иль сами вы скажите
 И части, и черты,
-</fileDesc>
-    </titleStmt>
+    </text>
+</TEI>
